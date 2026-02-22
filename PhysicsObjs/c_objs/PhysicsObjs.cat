@@ -1,0 +1,31 @@
+
+cat struct start
+Vector
+float x
+float y
+float z
+cat struct end 
+
+cat struct func start
+Vector
+def __repr__(self):
+    print(f"{self.x}\t{self.y}\t{self.z}")
+
+cat struct func end
+
+cat struct start
+Dipole
+Vector
+Vector pos
+float charge
+cat struct end 
+
+cat lang c
+cat name Dipoles
+#include "simple_functions.h"
+
+/* cat func addVectors Vector */
+/* cat func scaleVector Vector */
+/* cat func magnitude double */
+/* cat func subVectors Vector */
+

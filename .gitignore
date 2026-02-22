@@ -1,0 +1,8 @@
+__pycache__/
+env/
+build/
+develop-eggs/
+egg-info/
+dist/
+downloads/
+eggs/
