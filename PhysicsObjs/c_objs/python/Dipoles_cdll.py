@@ -9,3 +9,4 @@ Dipoles_c.addVectors.restype = Vector
 Dipoles_c.scaleVector.restype = Vector
 Dipoles_c.magnitude.restype = cpy_objs.float64
 Dipoles_c.subVectors.restype = Vector
+Dipoles_c.dipole.restype = Vector

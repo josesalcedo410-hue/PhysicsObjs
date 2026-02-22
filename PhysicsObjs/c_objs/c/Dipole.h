@@ -4,7 +4,7 @@
 #include "Vector.h"
 
 typedef struct Dipole {
-	Vector pos;
+	Vector dir;
 	float charge;
 } Dipole;
 #endif // DIPOLE_H

@@ -32,4 +32,8 @@ double magnitude(Vector v){
     return sqrt(v.x * v.x + v.y * v.y + v.z * v.z);
 }
 
+Vector dipole(Dipole d){
+    return scaleVector(d.dir, d.charge);
+}
+
 #endif // SIMPLE_FUNCTIONS_H

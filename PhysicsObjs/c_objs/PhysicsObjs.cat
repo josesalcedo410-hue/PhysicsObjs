@@ -16,7 +16,7 @@ cat struct func end
 cat struct start
 Dipole
 Vector
-Vector pos
+Vector dir
 float charge
 cat struct end 
 
@@ -28,4 +28,5 @@ cat name Dipoles
 /* cat func scaleVector Vector */
 /* cat func magnitude double */
 /* cat func subVectors Vector */
+/* cat func dipole Vector */
 

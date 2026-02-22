@@ -4,3 +4,4 @@
 /* cat func scaleVector Vector */
 /* cat func magnitude double */
 /* cat func subVectors Vector */
+/* cat func dipole Vector */
